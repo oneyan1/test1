@@ -1,7 +1,7 @@
-import {createBigIntMoney } from "easy-money";
+import { createBigIntMoney } from "easy-money";
 
 const money = createBigIntMoney({ amount: 100n, currency: "RUB" });
-const money1 = createBigIntMoney({ amount: 101n, currency: "USD" })
+const money1 = createBigIntMoney({ amount: 101n, currency: "USD" });
 
 const allocated = money.allocate([1, 1, 1]);
 const allocated1 = money1.allocate([1, 1, 1]);

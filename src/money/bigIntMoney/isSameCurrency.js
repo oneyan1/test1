@@ -1,6 +1,6 @@
 import { createBigIntMoney } from "easy-money";
 
-//if currentcies are same
+//if currencies are same
 const money = createBigIntMoney({ amount: 100n, currency: "USD" });
 
 const money2 = createBigIntMoney({ amount: 200n, currency: "USD" });

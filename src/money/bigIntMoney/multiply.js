@@ -1,6 +1,6 @@
-import {createBigIntMoney} from "easy-money";
+import { createBigIntMoney } from "easy-money";
 
-const money1 = createBigIntMoney({amount: 100n, currentcy: "USD"});
+const money1 = createBigIntMoney({amount:100n, currency:"USD"});
 
 const result = money1.multiply(6);
 

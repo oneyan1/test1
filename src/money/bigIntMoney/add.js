@@ -1,4 +1,4 @@
-import {createBigIntMoney} from "easy-money";
+import { createBigIntMoney } from "easy-money";
 
 const money = createBigIntMoney({ amount: 100n, currency: "USD" });
 

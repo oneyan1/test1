@@ -5,13 +5,13 @@ const money = createBigIntMoney({ amount: 100n, currency: "USD" });
 
 const money2 = createBigIntMoney({ amount: 100n, currency: "USD" });
 
-money.greaterThan(money2);
+money.lessThanOrEqual(money2);
 // => true
 
-//if first value greater then second
-const mone3 = createBigIntMoney({ amount: 150n, currency: "USD" });
+//if first value less then second
+const money3 = createBigIntMoney({ amount: 150n, currency: "USD" });
 
 const money4 = createBigIntMoney({ amount: 100n, currency: "USD" });
 
-money3.greaterThan(money4);
+money3.lessThanOrEqual(money4);
 // => true
