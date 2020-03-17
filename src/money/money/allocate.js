@@ -23,4 +23,4 @@ const moneyNegative = createMoney({ amount: -5, currency: 'RUB' });
 const allocatedNegative = moneyNegative.allocate([3, 7]);
 
 allocatedNegative.map((result) => result.getAmount());
-// => 2n, 3n
+// => "-2", "-3"
