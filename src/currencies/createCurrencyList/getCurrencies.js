@@ -1,7 +1,7 @@
-import { createCurrencyList } from "easy-money";
+import { createCurrencyList } from 'easy-money';
 
-const currency = {minorUnit: 2, code: "XBT"};
-const currency1 = {minorUnit: 5, code: "DXBT"};
+const currency = { minorUnit: 2, code: 'XBT' };
+const currency1 = { minorUnit: 5, code: 'DXBT' };
 const currencyArr = [currency, currency1];
 
 const list = createCurrencyList(currencyArr);

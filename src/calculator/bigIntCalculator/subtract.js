@@ -1,4 +1,4 @@
-import { createBigIntCalculator } from "easy-money";
+import { createBigIntCalculator } from 'easy-money';
 
 const calculator = createBigIntCalculator();
 

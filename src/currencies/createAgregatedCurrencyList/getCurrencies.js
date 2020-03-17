@@ -1,7 +1,7 @@
-import {createAgregatedCurrencyList, createCurrencyList} from "easy-money";
+import { createAgregatedCurrencyList, createCurrencyList } from 'easy-money';
 
-const currency = {minorUnit: 2, code: "XBT"};
-const currency1 = {minorUnit: 5, code: "DXBT"};
+const currency = { minorUnit: 2, code: 'XBT' };
+const currency1 = { minorUnit: 5, code: 'DXBT' };
 const currencyArr = [currency, currency1];
 
 const list = createCurrencyList(currencyArr);
@@ -13,8 +13,8 @@ const result = agregatedList.getCurrencies();
 
 //---------------------------------------------------
 
-const currency2 = {minorUnit: 2, code: "SADXBTA", meta:{}};
-const currency3 = {minorUnit: 5, code: "ASDDXBT", meta:{}};
+const currency2 = { minorUnit: 2, code: 'SADXBTA', meta: {} };
+const currency3 = { minorUnit: 5, code: 'ASDDXBT', meta: {} };
 const currencyArr1 = [currency2, currency3];
 
 const list1 = createCurrencyList(currencyArr1);
